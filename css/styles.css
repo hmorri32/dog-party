@@ -63,6 +63,11 @@ nav li a {
 /*/nav*/
 
 /*Hero*/
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
 .nickel-less-cage {
   background: url("../images/hero-background.jpg");
   background-size: cover;
@@ -95,7 +100,6 @@ nav li a {
   display: inline-block;
   text-align: center;
   vertical-align: top;
-  margin: 0 10px;
   color: #2d2c2c;
 }
 
@@ -140,6 +144,10 @@ footer li {
 
 /*Splits columns vertically under 750px wide*/
 @media screen and (max-width: 750px) {
+  .hero {
+    flex-direction: column;
+
+  }
   .three-col {
     float: none;
     height: 400px;
