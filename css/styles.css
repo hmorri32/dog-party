@@ -103,7 +103,7 @@ nav li a {
   justify-content: flex-start;
   align-items: center;
   color: #2d2c2c;
-  margin-bottom: 12px;
+  margin: 10px;
 }
 
 .three-col img {
@@ -123,6 +123,10 @@ nav li a {
   font-size: 20px;
   font-weight: 600;
   color: #3192d6;
+}
+
+.flex-btn {
+  margin-top: auto;
 }
 
 /*/sections*/
