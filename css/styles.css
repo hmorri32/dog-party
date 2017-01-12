@@ -68,6 +68,7 @@ nav li a {
   display: flex;
   justify-content: center;
 }
+
 .nickel-less-cage {
   background: url("../images/hero-background.jpg");
   background-size: cover;
@@ -97,9 +98,10 @@ nav li a {
 /*sections*/
 .three-col {
   width: 30%;
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   color: #2d2c2c;
   margin-bottom: 12px;
 }
@@ -114,6 +116,7 @@ nav li a {
 
 .three-col p {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .three-col h3 {
